@@ -14,8 +14,8 @@ Adafruit_HTU21DF htu = Adafruit_HTU21DF();
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 // Pines I2C para ESP32 (puedes cambiarlos si es necesario)
-#define SDA_PIN 21
-#define SCL_PIN 22
+#define SDA_PIN 22
+#define SCL_PIN 21
 
 void setup() {
   Serial.begin(115200);
