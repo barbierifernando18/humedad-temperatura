@@ -1,0 +1,17 @@
+# Arduino / ESP32
+*.bin
+*.elf
+*.hex
+*.map
+*.pio
+*.log
+/build
+/pio
+
+# IDE files
+.vscode/
+*.idea/
+
+# System files
+.DS_Store
+Thumbs.db
